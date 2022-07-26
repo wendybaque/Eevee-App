@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Nixie+One');
-
 .pokemon-container {
     display: flex;
     flex-direction: column;
@@ -7,15 +5,18 @@
 }
 
 .pokemon-container p {
+    font-family: 'Staatliches', cursive;
+
+    text-align: center;
     color:white;
     margin: 1rem;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
-      text-shadow:  0 0 7px #fff, 
+      text-shadow:  0 0 6px #fff, 
                0 0 10px #fff, 
-               0 0 42px rgb(230, 18, 124),   
-               0 0 77px rgb(230, 18, 124), 
+               0 0 30px rgb(230, 18, 124),   
+               0 0 70px rgb(230, 18, 124), 
                0 0 100px rgb(230, 18, 124) 
 }
 
@@ -26,6 +27,7 @@
 }
 
 #button-next, #button-previous {
+    font-family: 'Staatliches', cursive;
     cursor: pointer;
     border-radius: 0.5rem;
     border: none;
