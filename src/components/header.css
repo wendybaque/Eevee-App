@@ -1,0 +1,10 @@
+.header-pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-img {
+    width: 15rem;
+    height: 15rem;
+}
