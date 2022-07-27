@@ -1,6 +1,6 @@
 import './App.css';
-import Header from './components/Header';
-import Pokemon from './components/Pokemon';
+import Header from '../src/Header';
+import Pokemon from '../src/Pokemon';
 
 function App() {
   return (
